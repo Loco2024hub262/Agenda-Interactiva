@@ -1,0 +1,30 @@
+/* Estilo para la tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f0ffff; /* Color de fondo azul claro */
+}
+
+/* Estilo para las celdas */
+td {
+  border: 1px solid #000000; /* Borde negro */
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  font-size: 20px; /* Tamaño de fuente para los días de la semana */
+}
+
+/* Estilo para los eventos */
+.evento {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* Efecto hover para los eventos */
+.evento:hover {
+  background-color: #e0e0e0;
+}
